@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [src/BowlbyOneSC-Regular.ufo, BowlbyOneSC-Regular.ttf.ttx, src/BowlbyOneSC-Regular.otf.ttx,
+  src/BowlbyOneSC-Regular.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
